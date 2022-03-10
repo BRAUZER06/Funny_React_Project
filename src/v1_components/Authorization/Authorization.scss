@@ -1,0 +1,144 @@
+
+p {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+}
+
+.authorization {
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+  margin-top: 70px;
+  margin-bottom: 27px;
+
+  &_block {
+    height: 60px;
+  }
+  &_noterror {
+    position: relative;
+    opacity: 0;
+    cursor: default;
+  }
+  &_error {
+    cursor: help;
+    background: #f5e9e9;
+    border: 1px solid #e26f6f;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 22px 20px;
+    display: flex;
+    // opacity: 0;
+    // cursor: default;
+
+    > i {
+      margin-right: 22px;
+      width: 20px;
+      height: 20px;
+    }
+    
+  }
+
+  &_form {
+    display: flex;
+    flex-direction: column;
+    &_login {
+      margin-top: 27px;
+      margin-bottom: 35px;
+      display: flex;
+      flex-direction: column;
+
+      > p {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 19px;
+      }
+      > input {
+        height: 60px;
+        padding: 20px;
+        font-size: 16px;
+        line-height: 19px;
+        background: #f5f5f5;
+        border-radius: 8px;
+        &:hover {
+          background: #e7e7e7;
+        }
+      }
+    }
+
+    &_password {
+      margin-bottom: 40px;
+      margin-top: 27px;
+      display: flex;
+      flex-direction: column;
+      > p {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 19px;
+      }
+      > input {
+        height: 60px;
+        padding: 20px;
+        background: #f5f5f5;
+        border-radius: 8px;
+        font-size: 16px;
+        line-height: 19px;
+        &:hover {
+          background: #e7e7e7;
+        }
+      }
+    }
+
+    &_checkbox {
+      display: flex;
+      margin-top: 20px;
+      > p {
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 25px;
+      }
+      > input[type="checkbox"] {
+        cursor: pointer;
+        margin-right: 14px;
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        background-color: red;
+        color: red;
+      }
+    }
+
+    &_button {
+      cursor: pointer;
+      font-weight: 600px;
+      color: white;
+      background: #4a67ff;
+      border-radius: 8px;
+      &:hover {
+        background: #2342df;
+      }
+      &:active {
+        box-shadow: 5px 4px 15px -1px rgba(0, 0, 0, 1) inset;
+        background: #2f51fa;
+      }
+      &:disabled {
+        background: #8fa1ff;
+        cursor: progress;
+      }
+    }
+
+    &_validInput {
+      letter-spacing: 0.7px;
+      padding-top: 2px;
+      padding-left: 10px;
+      color: red;
+      text-align: left;
+      font-size: 13px;
+    }
+  }
+}

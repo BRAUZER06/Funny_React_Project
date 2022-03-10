@@ -1,0 +1,28 @@
+.profile{
+ 
+margin-top: 300px;
+  >button{
+   
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 25px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    background-color: #d4d3d3;
+    border: 1px solid #d4d3d3;
+    &:hover{
+      box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2) inset;
+    }&:active{
+      box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.2) inset;
+      border: 1px solid #a8a8a8;
+    }
+  }
+  >h1{
+    font-weight: 400;
+    >strong{
+
+    }
+  }
+ 
+}
