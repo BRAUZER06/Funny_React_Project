@@ -1,0 +1,14 @@
+.App{
+  margin: 0 auto  ;
+  width: 640px;
+}
+.error{
+  position: absolute;
+  opacity: 0;
+  cursor: default;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
+  align-items: center;
+  background: #95a6ff;
+}

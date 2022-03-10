@@ -1,6 +1,7 @@
 import React from 'react';
+import './Profile.scss'
 
-const App_v2 = () => {
+const Profile = () => {
   return (
     <div>
       
@@ -8,4 +9,4 @@ const App_v2 = () => {
   );
 };
 
-export default App_v2;
+export default Profile;

@@ -5,7 +5,7 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import Authorization from "./v1_components/Authorization/Authorization";
 import Profile from "./v1_components/Profile/Profile";
 
-function App() {
+function AppV1() {
   return (
     <div className="App">
       <ONLY />
@@ -17,7 +17,7 @@ function App() {
   );
 }
 
-const ONLY = () => {
+const ONLY:React.FC = () => {
   const navigate = useNavigate();
   const onClickOnlyPage = () => {
     navigate("/Authorization");
@@ -29,4 +29,4 @@ const ONLY = () => {
   );
 };
 
-export default App;
+export default AppV1;

@@ -1,14 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App_v1";
-import { BrowserRouter  } from "react-router-dom";
-import App_v2 from "./App_v2";
+import AppV1 from "./AppV1";
+import { BrowserRouter } from "react-router-dom";
+import AppV2 from "./AppV2";
+import styled, { createGlobalStyle } from "styled-components";
 
+const Global = createGlobalStyle`
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+`
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      {/* <App_v2/> */}
-      <App />
+      <Global/>
+        <AppV2 />
+      
+      {/* <AppV1 /> */}
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
