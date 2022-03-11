@@ -4,7 +4,7 @@ import "./Authorization.scss";
 
 // я Плохо еще знаю TypeScript
 // данный проект просто набросок, я сделал его чисто ради интереса
-// с мин. использованием бибилиотек
+// с миним. использованием бибилиотек
 // p.s. код говно и вообще не надо это чекать
 interface InputValueInterface {
   login: string;
@@ -66,29 +66,6 @@ const Authorization = () => {
       setErrorSeatchUser(true);
     }
 
-    // if (valueInput.login === "" || valueInput.password === "") {
-    //   if (valueInput.login === "") {
-    //     setLoginValid(true);
-    //     setErrorSeatchUser(true)
-    //   }
-    //   if (valueInput.password === "") {
-    //     setPasswordValid(true);
-    //   }
-    // } else if (
-    //   valueInput.login === "steve.jobs@example.com" &&
-    //   valueInput.password === "password"
-    // ) {
-    //   setIsDisabled(true);
-    //   setTimeout(() => {
-    //     if (inpuChecked) {
-    //       window.localStorage.setItem("login", valueInput.login);
-    //       window.localStorage.setItem("password", valueInput.password);
-    //     }
-    //     setIsDisabled(false);
-    //     setValueInput({ login: "", password: "" });
-    //     navigate("/profile");
-    //   }, 2000);
-    // }
   };
 
   const onChangeInput: React.ChangeEventHandler<HTMLInputElement> = (
