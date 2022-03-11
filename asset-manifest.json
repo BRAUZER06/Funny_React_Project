@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Funny_React_Project/static/css/main.473030a3.css",
+    "main.js": "/Funny_React_Project/static/js/main.8bfeb6e4.js",
+    "index.html": "/Funny_React_Project/index.html",
+    "main.473030a3.css.map": "/Funny_React_Project/static/css/main.473030a3.css.map",
+    "main.8bfeb6e4.js.map": "/Funny_React_Project/static/js/main.8bfeb6e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.473030a3.css",
+    "static/js/main.8bfeb6e4.js"
+  ]
+}
